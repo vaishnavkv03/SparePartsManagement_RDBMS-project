@@ -5,5 +5,5 @@ The Spare Parts Management System is a software application designed to streamli
 ## Contributers
 SREEHARI S KUMAR<br>
 VAISHNAV K V<br>
-SNEHA SHIVAKUMAR<br>
+SNEHA SIVAKUMAR<br>
 SREEKANTH C H 
