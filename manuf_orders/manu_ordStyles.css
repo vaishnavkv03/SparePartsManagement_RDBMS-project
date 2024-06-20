@@ -1,0 +1,86 @@
+/* Existing styles */
+.header {
+    background-color: rgb(241, 219, 130);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(38, 77, 131);
+    font-weight: 500;
+}
+
+body {
+    background-color: rgb(241, 219, 130);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(38, 77, 131);
+    margin: 8px;
+}
+
+@font-face {
+    font-family: 'phenom';
+    src: url('Phenomena-Bold.ttf');
+}
+
+.hp {
+    font-family: 'phenom';
+    font-size: 90px;
+    padding-left: 55px;
+    color: rgb(38, 77, 131);
+    padding-top: 0;
+    margin-top: 15px;
+}
+
+/* New styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-width: 3px;
+    margin: 25px 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff36;
+}
+
+table thead tr {
+    background-color: rgb(38, 77, 131);
+    color: #ffffff;
+    text-align: left;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    border: 1px solid rgb(38, 77, 131);
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: rgb(241, 219, 130);
+}
+
+table tbody tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
+
+table tbody tr:hover {
+    background-color: rgb(105, 138, 185);
+    color: #ffffff;
+}
+
+table tbody tr td form input[type="submit"] {
+    background-color: rgb(38, 77, 131);
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+table tbody tr td form input[type="submit"]:hover {
+    background-color: rgb(229, 193, 52);
+    color: rgb(42, 69, 107);
+}
