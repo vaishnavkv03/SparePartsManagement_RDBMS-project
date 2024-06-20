@@ -1,0 +1,71 @@
+.header {
+    background-color: #c1d0c1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: #6f6e6e;
+    margin: 8px;
+}
+@font-face {
+    font-family: 'akrol';
+    src: url('Akrobat-Light.otf');
+}
+
+@font-face {
+    font-family: 'akro';
+    src: url('Akrobat-Black.otf');
+}
+
+body{
+    background-color: #c1d0c1;
+}
+
+.hero {
+    
+    display: flex;
+    font-size: 90px;
+    font-family: 'akro';
+    padding: 18px;
+    padding-left: 21px;
+    color: #373737;
+}
+
+.tabl table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 5px;
+    font-family: 'akrol';
+    
+}
+
+.tabl table th,
+.tabl table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #a8a7a7;
+    
+}
+
+.tabl table th {
+    background-color: #acabab;
+}
+
+.tabl table tr {
+    background-color: #d8d7d7;
+}
+
+.tabl table tr:hover {
+    background-color: #f2f2f2;
+}
+
+a:hover{
+    color: #6f6e6e;
+}

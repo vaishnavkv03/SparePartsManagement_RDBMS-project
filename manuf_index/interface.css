@@ -1,0 +1,160 @@
+.top-bar {
+    
+    color: white;
+    padding: 50px 40px ; /* Adjusted padding to reduce height */
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Align to bottom */
+    width: 100%; /* Full width */
+    height: 70px; /* Set desired height */
+    box-sizing: border-box; /* Include padding and border in height calculation */
+  }
+
+  .t{
+    text-align: left;
+    padding-left: 10.2%;
+    padding-bottom: 5px;
+    font-size: large;
+    font-family: 'bison';
+    font-weight: 400;
+    
+  }
+
+  .container{
+    /*background-color: #0f6288;*/
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .container button{
+    width: 135px;
+    height: 50px;
+    margin-left: 10%;
+  }
+
+  .header {
+    background-color: rgb(255, 235, 134);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(38, 77, 131);
+    font-weight: 500;
+    max-height: 15px;
+    
+}
+a{
+    text-decoration: none;
+    margin: 5px;
+}
+
+.links{
+    display: flex;
+}
+
+  @font-face {
+    font-family: 'bison';
+    src: url('Bison-Bold.ttf');
+  }
+
+  .heading{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*background-color: red;*/
+    font-size: 75px;
+    text-align: left;
+    padding-left: 10%;
+    margin-bottom: 20px;
+    color: #0e6086;
+  }
+  
+  .top-bar .left-content {
+    flex: 1; /* Flex item to take available space */
+    text-align: center;
+  }
+  
+  .top-bar button {
+    background-color: #555;
+    border: none;
+    color: white;
+    padding: 10px 20px; /* Adjusted padding */
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 4px; /* Adjusted margin */
+  }
+  
+  .top-bar button:hover {
+    background-color: #0f6288;
+  }
+  
+  .header-image {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(0, 10, 7);
+    
+  }
+  
+  button {
+    --c: #229091; /* the color */
+    box-shadow: 0 0 0 .1em inset var(--c);
+    --_g: linear-gradient(var(--c) 0 0) no-repeat;
+    background:
+        var(--_g) calc(var(--_p, 0%) - 100%) 0%,
+        var(--_g) calc(200% - var(--_p, 0%)) 0%,
+        var(--_g) calc(var(--_p, 0%) - 100%) 100%,
+        var(--_g) calc(200% - var(--_p, 0%)) 100%;
+    background-size: 50.5% calc(var(--_p, 0%)/2 + .5%);
+    outline-offset: .1em;
+    transition: background-size .4s, background-position 0s .4s;
+
+    border-radius: 11px;
+    
+
+  }
+  
+  button:hover {
+    --_p: 100%;
+    transition: background-position .4s, background-size 0s;
+  }
+  
+  button:active {
+    box-shadow: 0 0 9e9q inset #0009;
+    background-color: var(--c);
+    color: #fff;
+  }
+  
+  body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-content: normal;
+    grid-auto-flow: row;
+    gap: 0px;
+    background-color: rgb(255, 235, 134);
+    background-image: url('manuf1.png');/* Add this line */
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+  }
+  
+  button {
+    font-family: system-ui, sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: .1em .6em;
+    font-weight: bold;
+    border: none;
+  }
