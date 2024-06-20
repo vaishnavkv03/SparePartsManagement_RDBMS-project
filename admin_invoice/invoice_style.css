@@ -1,0 +1,79 @@
+.header {
+    background-color: #c1d0c1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+body{
+    background-color: #c1d0c1;
+}
+
+@font-face {
+    font-family: "akrol";
+    src: url('Akrobat-Light.otf');
+}
+
+a {
+    text-decoration: none;
+    color: #2d2d2d;
+    margin: 8px;
+}
+
+@font-face {
+    font-family: 'akro';
+    src: url('Akrobat-Black.otf');
+}
+
+.hero {
+   
+    display: flex;
+    font-size: 90px;
+    font-family: 'akro';
+    padding: 18px;
+    padding-left: 21px;
+}
+
+.ttt table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-color: #2d2d2d;
+    font-family: 'akrol';
+}
+
+.ttt table th,
+.ttt table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444444;
+}
+
+.ttt table th {
+    background-color: #979797;
+}
+
+.ttt table tr:hover {
+    background-color: #d7d5d5;
+}
+
+
+
+.ttt table button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ttt table button:hover {
+    background-color: #45a049;
+}
+a:hover{
+    color: #45a049;
+}
