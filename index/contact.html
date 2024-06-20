@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - State Transport Corporation</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #a8ceed; /* Background color */
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8); /* Reduced opacity white background */
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        text-align: justify;
+        line-height: 1.6;
+    }
+    h1, h2 {
+        color: #333;
+    }
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    p {
+        color: #666;
+        font-size: 16px;
+    }
+    .contact-info {
+        margin-top: 30px;
+    }
+    .contact-info p {
+        margin-bottom: 10px;
+    }
+    .contact-form {
+        margin-top: 30px;
+    }
+    .contact-form label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    .contact-form input, .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .contact-form textarea {
+        height: 150px;
+    }
+    .contact-form button {
+        padding: 12px 20px;
+        background-color: #6ba0cb;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+    }
+    .contact-form button:hover {
+        background-color: #5c9b6f;
+    }
+    .btn-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .btn-container a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #6ba0cb;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    .btn-container a:hover {
+        background-color: #5c9b6f;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Contact Us</h1>
+    
+    <div class="contact-info">
+        <p>For inquiries, feedback, or more information about our services, please contact us at:</p>
+        <p>Email: info@statetransportcorp.com<br>
+           Phone: +1234567890</p>
+        <p>Address: 123 State Transport Blvd, Cityville, State, Country</p>
+    </div>
+    
+    <div class="contact-form">
+        <form id="contactForm" action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="btn-container">
+        <a href="../index/index.php">Go Back</a>
+    </div>
+</div>
+
+<script>
+    // JavaScript for handling form submission
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent the default form submission
+        
+        // Display alert message
+        alert("Message submitted!");
+
+        // Redirect to contact page (change the URL as per your structure)
+        window.location.href = "contact.html";
+    });
+</script>
+
+</body>
+</html>
